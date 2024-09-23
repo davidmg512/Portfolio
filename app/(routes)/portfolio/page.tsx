@@ -1,5 +1,3 @@
-import AvatarPortfolio from "@/components/avatar-portfolio";
-import CircleImage from "@/components/cicle-image";
 import ContainerPage from "@/components/container";
 import PortfolioBox from "@/components/portfolio-box";
 import MotionTransition from "@/components/transition-component";

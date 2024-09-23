@@ -3,7 +3,6 @@ import ContainerPage from "@/components/container";
 import Skill from "@/components/skill";
 import TransitionPage from "@/components/transition-page";
 import { knowntec, learningtec, usedtec } from "@/data";
-import Image from "next/image"
 
 
 const SkillsPage = () => {
