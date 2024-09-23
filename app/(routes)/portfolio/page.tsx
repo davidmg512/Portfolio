@@ -16,8 +16,8 @@ const Portfolio = () => {
 
                 <div className="relative z-10 grid max-w-5xl gap-6 mx-auto mt-4 w-full">
                     {dataPortfolio.map((data) => (
-                        <MotionTransition position={data.id % 2 == 0 ? "right" : "left"}>
-                            <PortfolioBox key={data.id} data={data}/>
+                        <MotionTransition key={data.id} position={data.id % 2 == 0 ? "right" : "left"}>
+                            <PortfolioBox data={data}/>
                         </MotionTransition>
                         
                     ))}
