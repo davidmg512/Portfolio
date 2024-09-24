@@ -47,7 +47,7 @@ const Introduction = () => {
                         Como desarrollador frontend me dedico a combinar diseño y funcionalidad para crear experiencias digitales impactantes y accesibles.
                     </p>
 
-                    <div className="flex items-center justify-center gap-3 mb-8 md:justify-start md:gap-10">
+                    <div className="flex items-center justify-center gap-3 mb-32 md:justify-start md:gap-10 md:mb-8">
                         <Link href="/portfolio" className="px-3 py-2 transition-all border-2 cursor-pointer text-md w-fit rounded-xl hover:shadow-xl hover:shadow-white/50">
                             Ver proyectos
                         </Link>
