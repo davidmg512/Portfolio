@@ -199,6 +199,16 @@ export const dataPortfolio = [
     },
     {
         id: 2,
+        title: "The Ancient Gate",
+        subtitle: "Pagina web del videojuego",
+        image: "/theancientgate.png",
+        descripcion: "Una pagina donde el usuario puede descargar el juego The Ancient Gate o informarse sobre el mismo. En la pagina encontramos información sobre el juego, el contenido, o incluso una galería de imagenes y varios videos.",
+        urlGithub: "https://github.com/davidmg512/The-Ancient-Gate",
+        urlDemo: "https://the-ancient-gate.vercel.app/",
+        tec: ["Angular", "Tailwind", "Vercel"]
+    },
+    {
+        id: 3,
         title: "Autoescuela Méndez",
         subtitle: "Pagina de test de autoescuela",
         image: "/autoescuela.png",
